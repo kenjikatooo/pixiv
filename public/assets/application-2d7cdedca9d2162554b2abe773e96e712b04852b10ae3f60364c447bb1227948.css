@@ -1,0 +1,125 @@
+/* line 1, /Users/kenjikato/environment/pixiv/app/assets/stylesheets/custom.scss */
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 7, /Users/kenjikato/environment/pixiv/app/assets/stylesheets/custom.scss */
+.main {
+  background-image: url(/images/sample_bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 13, /Users/kenjikato/environment/pixiv/app/assets/stylesheets/custom.scss */
+.signup_btn {
+  display: block;
+  padding: 0 12px;
+  width: 80px;
+  background-color: #25c6ff;
+  color: #fff;
+  font-weight: 700;
+  outline: none;
+  font-size: 12px;
+  text-align: center;
+}
+
+/* line 25, /Users/kenjikato/environment/pixiv/app/assets/stylesheets/custom.scss */
+.regular_font {
+  font-family: 'Hiragino Kaku Gothic Pro';
+}
+
+/* line 29, /Users/kenjikato/environment/pixiv/app/assets/stylesheets/custom.scss */
+.su_logo {
+  margin-bottom: 40px;
+}
+
+/* line 33, /Users/kenjikato/environment/pixiv/app/assets/stylesheets/custom.scss */
+.logo {
+  font-family: 'Oriya MN';
+  font-size: 41px;
+  color: #029BFF;
+  font-size: 80px;
+  margin: 0px auto;
+}
+
+/* line 41, /Users/kenjikato/environment/pixiv/app/assets/stylesheets/custom.scss */
+.catchphrase {
+  padding: 0px;
+  margin: 0px;
+}
+
+/* line 46, /Users/kenjikato/environment/pixiv/app/assets/stylesheets/custom.scss */
+.signup_form {
+  width: 363px;
+  margin: 20vh auto;
+  background-color: rgba(255, 255, 255, 0.92);
+  text-align: center;
+  border-radius: 4px;
+  padding: 50px 0;
+}
+
+/* line 55, /Users/kenjikato/environment/pixiv/app/assets/stylesheets/custom.scss */
+.input_field {
+  margin: 0 auto;
+  border-bottom: none;
+  margin-bottom: 0px;
+  width: 300px;
+}
+/* line 60, /Users/kenjikato/environment/pixiv/app/assets/stylesheets/custom.scss */
+.input_field input {
+  width: 290px;
+  height: 40px;
+  color: #000;
+  padding-left: 10px;
+  font-size: 100%;
+}
+/* line 66, /Users/kenjikato/environment/pixiv/app/assets/stylesheets/custom.scss */
+.input_field input:placeholder-shown {
+  color: #ccc;
+}
+
+/* line 72, /Users/kenjikato/environment/pixiv/app/assets/stylesheets/custom.scss */
+.former_input {
+  border-radius: 4px 4px 0 0;
+  border: 1px solid #dfebf2;
+  border-bottom: none;
+}
+
+/* line 78, /Users/kenjikato/environment/pixiv/app/assets/stylesheets/custom.scss */
+.latter_input {
+  border-radius: 0 0 4px 4px;
+  border: 1px solid #dfebf2;
+}
+
+/* line 83, /Users/kenjikato/environment/pixiv/app/assets/stylesheets/custom.scss */
+.submit_btn {
+  display: block;
+  margin: 8px auto;
+  margin-bottom: 8px;
+  width: 300px;
+  height: 40px;
+  background-color: #25c6ff;
+  font-weight: 700;
+  line-height: 40px;
+  color: #fff;
+  border-radius: 4px;
+  border-color: #25c6ff;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+

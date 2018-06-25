@@ -5,9 +5,9 @@ body {
 }
 
 .main {
-    width: 100vw;
-    height: 100vh;
-    background-image: url(sample_bg.jpg);
+    background-image: url(/images/sample_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .signup_btn {
