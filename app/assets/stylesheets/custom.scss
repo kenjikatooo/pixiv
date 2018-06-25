@@ -14,14 +14,70 @@ body {
     font-family: 'Hiragino Kaku Gothic Pro';
 }
 
+.su_logo {
+    margin-bottom: 40px;
+}
+
 .logo {
     font-family: 'Oriya MN';
     font-size: 41px;
     color: #029BFF;
+    font-size: 80px;
+    margin: 0px auto;
+}
+
+.catchphrase {
+    padding: 0px;
+    margin: 0px;
 }
 
 .signup_form {
-    width: 177px;
-    height: 248px;
-    background-color: #EDEEEE;
+    width: 363px;
+    margin: 20vh auto;
+    background-color: hsla(0, 0%, 100%, .92);
+    text-align: center;
+    border-radius: 4px;
+    padding: 50px 0;
+}
+
+.input_field {
+    margin: 0 auto;
+    border-bottom: none;
+    margin-bottom: 0px;
+    width: 300px;
+    input {
+        width: 290px;
+        height: 40px;
+        color: #000;
+        padding-left: 10px;
+        font-size: 100%;
+        &:placeholder-shown {
+            color: #ccc
+        }
+    }
+}
+
+.former_input {
+    border-radius: 4px 4px 0 0;
+    border: 1px solid #dfebf2;
+    border-bottom: none;
+}
+
+.latter_input {
+    border-radius: 0 0 4px 4px;
+    border: 1px solid #dfebf2;
+}
+
+.submit_btn {
+    display: block;
+    margin: 8px auto;
+    margin-bottom: 8px;
+    width: 300px;
+    height: 40px;
+    background-color: #25c6ff;
+    font-weight: 700;
+    line-height: 40px;
+    color: #fff;
+    border-radius: 4px;
+    border-color: #25c6ff;
 }
