@@ -10,6 +10,18 @@ body {
     background-image: url(sample_bg.jpg);
 }
 
+.signup_btn {
+    display: block;
+    padding: 0 12px;
+    width: 80px;
+    background-color: #25c6ff;
+    color: #fff;
+    font-weight: 700;
+    outline: none;
+    font-size: 12px;
+    text-align: center;
+}
+
 .regular_font {
     font-family: 'Hiragino Kaku Gothic Pro';
 }
