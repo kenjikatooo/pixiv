@@ -1,8 +1,7 @@
-<%# TODO 背景をフルで表示させる %>
 <div class="main">
-
+  <div class="signup">
     <a href="#" class="signup_btn regular_font">新規登録</a>
-
+  </div>
 
   <div class="signup_form">
     <div class="su_logo">
@@ -21,14 +20,19 @@
 
     <button class="submit_btn">ログイン</button>
 
-    <p class="regular_font">わすれた</p>
-    <p class="regular_font">もっているアカウントでログイン</p>
+    <div class="forget_link">
+      <a href="#" class="regular_font forget">わすれた</p>
+    </div>
 
-    <%# ぐぐたす、fb, twitterの画像を加えてボタンにする %>
-    <a href="#" class="google_plus_btn"></a>
-    <a href="#" class="facebook_btn"></a>
-    <a href="#" class="twitter_btn"></a>
-
+    <div class="sns_login">
+      <p class="regular_font">もっているアカウントでログイン</p>
+      <%# ぐぐたす、fb, twitterの画像を加えてボタンにする %>
+      <div class="sns_btn_list">
+        <a href="#" class="sns_btn google_plus_btn"></a>
+        <a href="#" class="sns_btn facebook_btn"></a>
+        <a href="#" class="sns_btn twitter_btn"></a>
+      </div>
+    </div>
   </div>
 
   <%# 作品名を動的によぶ %>
